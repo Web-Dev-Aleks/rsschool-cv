@@ -49,10 +49,23 @@ As a full stack programmer, I have been working for 10 years. I also provide sup
 - **RS School** «JavaScript/Front-end»
 ---
 
-### English and other language
-- **Languages:** 
-- English ( A2 - B1 ); 
-- Russian ( Native );  
-- Korean ( A1 );
-- Japanese (  N4 - N5 ).
+
+
+
+
+
+
+
+
+### English 
+#### and other language
+
+| Languages| My Level|
+| ---------| --------|
+| English  | A2 - B1 | 
+| Russian  | Native  | 
+| Korean   | A1      |
+| Japanese | N4 - N5 |
+
+
 
