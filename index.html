@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aleksandr Karpov - IT Project Manager & Web Developer</title>
+</head>
+<body>
+<header>
+    <h1>Aleksandr Karpov</h1>
+    <h2>IT Project Manager & Web Developer</h2>
+    <img src="https://avatars.githubusercontent.com/u/195762217" alt="Avatar" style="border-radius: 50%; width: 150px; margin-top: 20px;">
+</header>
+<section>
+    <h3>Contact</h3>
+    <div class="contact-info">
+        <ul>
+            <li><strong>Telegram:</strong> <a href="https://t.me/web_developers_pro" target="_blank">@web_developers_pro</a></li>
+            <li><strong>Email:</strong> <a href="mailto:project.devops.manager@gmail.com">project.devops.manager@gmail.com</a></li>
+            <li><strong>Website:</strong> <a href="https://web-developers.pro" target="_blank">Web-developers.pro</a></li>
+            <li><strong>GitHub Profile:</strong> <a href="https://github.com/Web-Dev-Aleks" target="_blank">GitHub</a></li>
+        </ul>
+    </div>
+</section>
+<section>
+    <h3>About Myself</h3>
+    <p>As a full-stack programmer, I have been working for 10 years. I also provide support for sites on various CMS, frameworks, as well as native custom systems. I work with frameworks and write code from scratch. Always in touch, and glad to fruitful cooperation. I am constantly learning new skills.</p>
+</section>
+<section>
+    <h3>Skills</h3>
+    <div class="skills">
+        <ul>
+            <li>Project Management</li>
+            <li>Front Developer (JavaScript, HTML5, CSS3)</li>
+            <li>Backend Developer (PHP, Node.js, Laravel)</li>
+            <li>Web Designer</li>
+            <li>Staff and User Training</li>
+        </ul>
+    </div>
+</section>
+<section>
+    <h3>Code Examples</h3>
+    <p><strong>Banner with smooth change of images</strong></p>
+    <div class="code-example">
+        <pre>
+var image_count = 5;
+var interval = 1200; 
+var time_out = 10; 
+var i = 5;
+var timeout;
+var opacity = 100;
+
+function change_image() {
+    opacity--;
+    var j = i + 1;
+    var current_image = 'img_' + i;
+    if (i == image_count) j = 1;
+    var next_image = 'img_' + j;
+    document.getElementById(current_image).style.opacity = opacity / 100;
+    document.getElementById(current_image).style.filter = 'alpha(opacity=' + opacity + ')';
+    document.getElementById(next_image).style.opacity = (100 - opacity) / 100;
+    document.getElementById(next_image).style.filter = 'alpha(opacity=' + (100 - opacity) + ')';
+    timeout = setTimeout("change_image()", time_out);
+    if (opacity == 1) {
+        opacity = 100;
+        clearTimeout(timeout);
+        i++;
+        if (i > image_count) i = 1;
+        timeout = setTimeout("change_image()", interval);
+    }
+}
+change_image()
+        </pre>
+    </div>
+</section>
+<section>
+    <h3>Work Experience</h3>
+    <ul>
+        <li><strong>Project Manager and Developer</strong> - Over 10 years of experience in web development</li>
+        <li>Development and maintenance of web applications, working with various frameworks and custom systems</li>
+        <li>JavaScript, PHP, Node.js, Laravel</li>
+        <li>Problem-solving skills to tackle any complex issues, optimizing code and improving application performance</li>
+        <li>Project management and team leadership</li>
+    </ul>
+    <h3>Projects</h3>
+    <ul>
+        <li><a href="https://idbsac.com/" target="_blank">IDBsac.com - Sacramento</a></li>
+        <li><a href="https://shvetsov.group" target="_blank">Shvetsov.group</a></li>
+        <li><a href="https://nailboutique.ru" target="_blank">Nailboutique.ru</a></li>
+        <li><a href="https://ohotika.ru" target="_blank">Ohotika.ru</a></li>
+        <li><a href="https://studiya-remonta.pro" target="_blank">Studiya-remonta.pro</a></li>
+    </ul>
+</section>
+<section>
+    <h3>Education</h3>
+    <p><strong>RS School</strong> «JavaScript/Front-end»</p>
+</section>
+<section>
+    <h3>Languages</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Languages</th>
+                <th>My Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>English</td>
+                <td>A2 - B1</td>
+            </tr>
+            <tr>
+                <td>Russian</td>
+                <td>Native</td>
+            </tr>
+            <tr>
+                <td>Korean</td>
+                <td>A1</td>
+            </tr>
+            <tr>
+                <td>Japanese</td>
+                <td>N4 - N5</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<footer><img src="https://png.klev.club/uploads/posts/2024-04/png-klev-club-12yp-p-krasnaya-polosa-png">
+
