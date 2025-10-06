@@ -1,1 +1,2 @@
-[# rsschool-cv](https://github.com/Web-Dev-Aleks/rsschool-cv/blob/gh-pages/cv.md)
+
+[# rsschool-cv-html](https://github.com/Web-Dev-Aleks/rsschool-cv)
